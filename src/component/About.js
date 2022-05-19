@@ -2,7 +2,8 @@
 // import NoteContext from '../context/NoteContext';
 
 import React from 'react';
-
+import Login from './Login';
+// import { useNavigate} from 'react-router-dom'
 
 const About = () => {
   // const a = useContext(NoteContext)
@@ -11,11 +12,15 @@ const About = () => {
 
   // }, [])
 
+
+  // navigate("/login");
+
+
   return (
     <>
-      <p>About me Hi my name is
+         <Login />
          {/* {a.state.name}, my role is {a.state.role} */}
-      </p>
+    
     </>
   )
 }
