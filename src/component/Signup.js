@@ -35,10 +35,6 @@ const Signup = (props) => {
   }
 
 
-
-
-
-
   return (
     <>
      <div className="container">
